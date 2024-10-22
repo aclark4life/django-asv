@@ -12,7 +12,7 @@
     "show_commit_url": "http://github.com/mongodb-forks/django/commit/",
     "pythons": ["3.12"],
     "matrix": {
-    "req": {
+      "req": {
         "-e ../django-mongodb": []
       }
     }
