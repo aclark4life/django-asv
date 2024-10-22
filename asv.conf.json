@@ -10,5 +10,10 @@
     ],
     "environment_type": "virtualenv",
     "show_commit_url": "http://github.com/mongodb-forks/django/commit/",
-    "pythons": ["3.12"]
+    "pythons": ["3.12"],
+    "matrix": {
+    "req": {
+        "-e ../django-mongodb": []
+      }
+    }
 }
